@@ -1,0 +1,9 @@
+{
+  "presets": [
+    ["@babel/preset-react", {
+      "pragma": "Crank.createElement",
+      "pragmaFrag": "Crank.Fragment"
+    }],
+    "@babel/preset-env"
+  ]
+}
